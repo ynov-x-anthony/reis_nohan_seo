@@ -5,10 +5,10 @@
 
 ## Checklist à cocher
 
-- [ ] Appeler `useDocumentMeta` (fourni) sur `Product.tsx` avec `title`, `description`, `ogTitle`, `ogDescription` propres à chaque produit
-- [ ] Vérifier dans l'onglet navigateur ET dans l'inspecteur (`document.querySelector('meta[property="og:title"]')`) que ça change bien en changeant de route
-- [ ] Répondre à [`SSR_SSG.md`](./SSR_SSG.md)
-- [ ] Bonus : [`SEA_BRIEF.md`](./SEA_BRIEF.md)
+- [x] Appeler `useDocumentMeta` (fourni) sur `Product.tsx` avec `title`, `description`, `ogTitle`, `ogDescription` propres à chaque produit
+- [x] Vérifier dans l'onglet navigateur ET dans l'inspecteur (`document.querySelector('meta[property="og:title"]')`) que ça change bien en changeant de route
+- [x] Répondre à [`SSR_SSG.md`](./SSR_SSG.md)
+- [x] Bonus : [`SEA_BRIEF.md`](./SEA_BRIEF.md)
 
 ## Démarrer
 
