@@ -1,3 +1,5 @@
-.banner { background: #fde9c8; padding: .8rem 1rem; border-radius: 6px; margin-bottom: 1rem; }
+.banner { background: #fde9c8; padding: .8rem 1rem; border-radius: 6px; margin-bottom: 1rem; transition: opacity .3s; }
+.banner-cache { opacity: 0; }
 img { max-width: 100%; display: block; margin: 1rem 0; }
+.hero { width: 100%; height: auto; aspect-ratio: 800 / 400; }
 button { padding: .6rem 1.1rem; font-size: 1rem; cursor: pointer; }

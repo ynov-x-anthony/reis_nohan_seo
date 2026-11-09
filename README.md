@@ -6,9 +6,9 @@ Lighthouse (DevTools → Lighthouse → catégorie Performance) et corrige.
 
 ## Checklist à cocher
 
-- [ ] **CLS #1** : l'image n'a ni `width`/`height` ni `aspect-ratio` CSS → réserve l'espace pour qu'elle n'empile rien quand elle apparaît
-- [ ] **CLS #2** : le bandeau "Livraison offerte" apparaît après coup et pousse le contenu → réserve-lui de la place (ou affiche-le dès le départ, masqué par opacité plutôt que retiré du flux)
-- [ ] **INP** : le calcul de points fidélité gèle la page → découpe le calcul pour ne jamais bloquer le thread principal plus de ~50ms d'un coup
+- [x] **CLS #1** : l'image n'a ni `width`/`height` ni `aspect-ratio` CSS → réserve l'espace pour qu'elle n'empile rien quand elle apparaît
+- [x] **CLS #2** : le bandeau "Livraison offerte" apparaît après coup et pousse le contenu → réserve-lui de la place (ou affiche-le dès le départ, masqué par opacité plutôt que retiré du flux)
+- [x] **INP** : le calcul de points fidélité gèle la page → découpe le calcul pour ne jamais bloquer le thread principal plus de ~50ms d'un coup
 
 ## Démarrer
 
