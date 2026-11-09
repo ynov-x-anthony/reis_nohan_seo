@@ -4,10 +4,10 @@
 
 ## Checklist à cocher
 
-- [ ] Créer `public/robots.txt` : autoriser le crawl général, interdire `/admin`, référencer le sitemap
-- [ ] Créer `public/sitemap.xml` listant `/produits`
-- [ ] Dans `Catalogue.tsx`, poser une balise canonique (via `useDocumentMeta`) qui pointe **toujours** vers `/produits?tri=prix`, que l'utilisateur soit arrivé par `?tri=prix` ou `?tri=prix-asc`
-- [ ] Répondre aux 3 questions de [`REFLEXION.md`](./REFLEXION.md)
+- [x] Créer `public/robots.txt` : autoriser le crawl général, interdire `/admin`, référencer le sitemap
+- [x] Créer `public/sitemap.xml` listant `/produits`
+- [x] Dans `Catalogue.tsx`, poser une balise canonique (via `useDocumentMeta`) qui pointe **toujours** vers `/produits?tri=prix`, que l'utilisateur soit arrivé par `?tri=prix` ou `?tri=prix-asc`
+- [x] Répondre aux 3 questions de [`REFLEXION.md`](./REFLEXION.md)
 
 ## Démarrer
 

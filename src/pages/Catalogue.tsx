@@ -1,13 +1,16 @@
 import { useSearchParams } from 'react-router-dom'
 import { products } from '../data'
-
-// Mission : /produits?tri=prix et /produits?tri=prix-asc affichent EXACTEMENT
-// la même liste (duplicate content, 2 URLs pour le même contenu). Pose une
-// balise canonique qui pointe toujours vers la version "prix".
+import { useDocumentMeta } from '../useDocumentMeta'
 
 export default function Catalogue() {
   const [params] = useSearchParams()
   const tri = params.get('tri')
+
+  useDocumentMeta({
+    title: 'Nos produits | CycloShop',
+    description: 'Vélos électriques, trottinettes et casques connectés : tout le catalogue CycloShop.',
+    canonical: 'https://cycloshop.exemple.fr/produits?tri=prix',
+  })
 
   const sorted = tri === 'prix' || tri === 'prix-asc'
     ? [...products].sort((a, b) => a.price - b.price)
