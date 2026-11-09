@@ -5,10 +5,10 @@ optimisé pour le référencement.
 
 ## Checklist à cocher
 
-- [ ] URLs propres : `/produits/:slug` (ex. `/produits/velo-electrique-pliable`) au lieu de `/product?id=1`
-- [ ] Appeler `useDocumentMeta` (déjà fourni dans `src/useDocumentMeta.ts`) sur `Home` **et** `Product`, avec un `title` unique par page (~50-60 caractères, mot-clé en premier) et une `description`
-- [ ] `<h1>` pour le nom du produit (plus de `<h3>`)
-- [ ] Un bloc "Produits similaires" sur la fiche produit, avec des vrais liens vers les autres fiches (maillage interne)
+- [x] URLs propres : `/produits/:slug` (ex. `/produits/velo-electrique-pliable`) au lieu de `/product?id=1`
+- [x] Appeler `useDocumentMeta` (déjà fourni dans `src/useDocumentMeta.ts`) sur `Home` **et** `Product`, avec un `title` unique par page (~50-60 caractères, mot-clé en premier) et une `description`
+- [x] `<h1>` pour le nom du produit (plus de `<h3>`)
+- [x] Un bloc "Produits similaires" sur la fiche produit, avec des vrais liens vers les autres fiches (maillage interne)
 
 ## Démarrer
 
